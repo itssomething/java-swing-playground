@@ -65,7 +65,7 @@ public class ThongKeKHFrm extends JFrame implements ActionListener {
         txtDateStart.setMaximumSize(new Dimension(Integer.MAX_VALUE, txtDateStart.getMinimumSize().height + 10));
         txtDateEnd.setMaximumSize(new Dimension(Integer.MAX_VALUE, txtDateEnd.getMinimumSize().height + 10));
 
-        btnSearch = new JButton("Search");
+        btnSearch = new JButton("Lọc");
         btnSearch.addActionListener(this);
         pn1.add(btnSearch);
         panel.add(pn1);
